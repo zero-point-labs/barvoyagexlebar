@@ -167,6 +167,15 @@ video {
   video {
     object-position: center center;
     transform: scale(1.1);
+    /* Hide video on mobile and show fallback image instead */
+    display: none;
+  }
+  
+  /* Ensure fallback background image covers properly on mobile */
+  .mobile-bg-fallback {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
   }
 }
 

@@ -203,103 +203,254 @@ const Services = () => {
                 SIGNATURE COCKTAILS
               </h4>
               
-              <div className="max-w-4xl mx-auto space-y-8">
-                {/* Midnight Cruise */}
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="border-b border-yellow-400/30 pb-6"
-                >
-                  <h5 className="text-xl md:text-2xl font-bold text-white mb-2 tracking-wide">
-                    MIDNIGHT CRUISE
-                  </h5>
-                  <p className="text-gray-300 text-base md:text-lg mb-2">
-                    Vodka, espresso coffee, coffee liqueur
-                  </p>
-                  <p className="text-yellow-400/80 italic text-sm">
-                    Garnish: Coffee beans
-                  </p>
-                </motion.div>
+              <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 md:gap-12">
+                {/* Left Column - 7 cocktails */}
+                <div className="space-y-8">
+                  {/* Banana Old Fashioned */}
+                  <motion.div
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.1 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      BANANA OLD FASHIONED
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base">
+                      bourbon, banana liqueur, nounou milk, angostura bitter
+                    </p>
+                  </motion.div>
 
-                {/* Tropical Departure */}
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.2 }}
-                  viewport={{ once: true }}
-                  className="border-b border-yellow-400/30 pb-6"
-                >
-                  <h5 className="text-xl md:text-2xl font-bold text-white mb-2 tracking-wide">
-                    TROPICAL DEPARTURE
-                  </h5>
-                  <p className="text-gray-300 text-base md:text-lg mb-1">
-                    Vodka, mastiha, lemon juice, strawberry puree, vanilla syrup
-                  </p>
-                  <p className="text-gray-300 text-base md:text-lg mb-2">
-                    Top up soda
-                  </p>
-                  <p className="text-yellow-400/80 italic text-sm">
-                    Garnish: Dehydrated lemon wheel
-                  </p>
-                </motion.div>
+                  {/* Pornstar Martini */}
+                  <motion.div
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.2 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      PORNSTAR MARTINI
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base">
+                      vodka, passion fruit puree, vanilla syrup, lemon juice, rosse
+                    </p>
+                  </motion.div>
 
-                {/* Golden Voyage */}
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.3 }}
-                  viewport={{ once: true }}
-                  className="border-b border-yellow-400/30 pb-6"
-                >
-                  <h5 className="text-xl md:text-2xl font-bold text-white mb-2 tracking-wide">
-                    GOLDEN VOYAGE
-                  </h5>
-                  <p className="text-gray-300 text-base md:text-lg mb-2">
-                    Gin, elderflower liqueur, lemon juice, sugar syrup
-                  </p>
-                  <p className="text-yellow-400/80 italic text-sm">
-                    Garnish: Gold flakes
-                  </p>
-                </motion.div>
+                  {/* Berry On Fire */}
+                  <motion.div
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.3 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      BERRY ON FIRE
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base">
+                      gin, raspberry puree, ginger puree, lemon juice, tabasco drops
+                    </p>
+                  </motion.div>
 
-                {/* Pink Compass */}
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.4 }}
-                  viewport={{ once: true }}
-                  className="border-b border-yellow-400/30 pb-6"
-                >
-                  <h5 className="text-xl md:text-2xl font-bold text-white mb-2 tracking-wide">
-                    PINK COMPASS
-                  </h5>
-                  <p className="text-gray-300 text-base md:text-lg mb-2">
-                    Beefeater pink gin, prosecco, top soda
-                  </p>
-                  <p className="text-yellow-400/80 italic text-sm">
-                    Garnish: Berries
-                  </p>
-                </motion.div>
+                  {/* Amaretto Bourbon */}
+                  <motion.div
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.4 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      AMARETTO BOURBON
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base">
+                      amaretto liqueur, bourbon, peach syrup, lemon juice, lemon
+                    </p>
+                  </motion.div>
 
-                {/* The Passport */}
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.5 }}
-                  viewport={{ once: true }}
-                >
-                  <h5 className="text-xl md:text-2xl font-bold text-white mb-2 tracking-wide">
-                    THE PASSPORT
-                  </h5>
-                  <p className="text-gray-300 text-base md:text-lg mb-2">
-                    Gin, sugar syrup, sparkling lemonade
-                  </p>
-                  <p className="text-yellow-400/80 italic text-sm">
-                    Garnish: Lemon slice
-                  </p>
-                </motion.div>
+                  {/* Midnight Cruise */}
+                  <motion.div
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.5 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      MIDNIGHT CRUISE
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base mb-2">
+                      Vodka, espresso coffee, coffee liqueur
+                    </p>
+                    <p className="text-yellow-400/80 italic text-xs">
+                      Garnish: Coffee beans
+                    </p>
+                  </motion.div>
+
+                  {/* Tropical Departure */}
+                  <motion.div
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.6 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      TROPICAL DEPARTURE
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base mb-2">
+                      Vodka, mastiha, lemon juice, strawberry puree, vanilla syrup
+                    </p>
+                    <p className="text-gray-300 text-sm md:text-base mb-2">
+                      Top up soda
+                    </p>
+                    <p className="text-yellow-400/80 italic text-xs">
+                      Garnish: Dehydrated lemon wheel
+                    </p>
+                  </motion.div>
+
+                  {/* Pink Compass */}
+                  <motion.div
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.7 }}
+                    viewport={{ once: true }}
+                    className="pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      PINK COMPASS
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base mb-2">
+                      Beefeater pink gin, prosecco, top soda
+                    </p>
+                    <p className="text-yellow-400/80 italic text-xs">
+                      Garnish: Berries
+                    </p>
+                  </motion.div>
+                </div>
+
+                {/* Right Column - 8 cocktails */}
+                <div className="space-y-8">
+                  {/* Melon & Green Apple */}
+                  <motion.div
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.1 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      MELON & GREEN APPLE
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base">
+                      vodka, melon liqueur, green apple syrup, lemon juice
+                    </p>
+                  </motion.div>
+
+                  {/* Coconut Passion */}
+                  <motion.div
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.2 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      COCONUT PASSION
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base">
+                      rum, coconut puree, passion fruit puree, nounou milk, lemon j
+                    </p>
+                  </motion.div>
+
+                  {/* Jasmine - Hibiscus - Violet */}
+                  <motion.div
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.3 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      JASMINE - HIBISCUS - VIOLET
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base">
+                      gin, jasmine-hibiscus-violet syrup rose water, lemon juice
+                    </p>
+                  </motion.div>
+
+                  {/* Maraschino Melon (Light) */}
+                  <motion.div
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.4 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      MARASCHINO MELON (LIGHT)
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base">
+                      maraschino, melon liqueur, Martini rosato, sugar syrup, lemon j
+                    </p>
+                  </motion.div>
+
+                  {/* Frozen Cucumber */}
+                  <motion.div
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.5 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      FROZEN CUCUMBER
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base">
+                      gin, cucumber syrup, frosted mint lemon juice
+                    </p>
+                  </motion.div>
+
+                  {/* Golden Voyage */}
+                  <motion.div
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.6 }}
+                    viewport={{ once: true }}
+                    className="border-b border-yellow-400/30 pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      GOLDEN VOYAGE
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base mb-2">
+                      Gin, elderflower liqueur, lemon juice, sugar syrup
+                    </p>
+                    <p className="text-yellow-400/80 italic text-xs">
+                      Garnish: Gold flakes
+                    </p>
+                  </motion.div>
+
+                  {/* The Passport */}
+                  <motion.div
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: 0.7 }}
+                    viewport={{ once: true }}
+                    className="pb-6"
+                  >
+                    <h5 className="text-lg md:text-xl font-bold text-white mb-2 tracking-wide">
+                      THE PASSPORT
+                    </h5>
+                    <p className="text-gray-300 text-sm md:text-base mb-2">
+                      Gin, sugar syrup, sparkling lemonade
+                    </p>
+                    <p className="text-yellow-400/80 italic text-xs">
+                      Garnish: Lemon slice
+                    </p>
+                  </motion.div>
+                </div>
               </div>
             </div>
           </div>

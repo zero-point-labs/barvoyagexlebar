@@ -14,10 +14,27 @@ const Hero = () => {
         muted
         loop
         playsInline
+        preload="metadata"
+        poster="/events.jpg"
         className="absolute inset-0 w-full h-full object-cover z-0"
+        onLoadedData={(e) => {
+          const video = e.target as HTMLVideoElement;
+          video.play().catch(() => {
+            // If video fails to play, it will show the poster image
+            console.log('Video autoplay failed, showing poster image');
+          });
+        }}
       >
         <source src="/1000026174.mp4" type="video/mp4" />
+        {/* Fallback for browsers that don't support video */}
+        Your browser does not support the video tag.
       </video>
+      
+      {/* Mobile fallback background image */}
+      <div 
+        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat z-0 md:hidden mobile-bg-fallback"
+        style={{ backgroundImage: 'url("/events.jpg")' }}
+      />
       
       {/* Dark overlay to maintain theme */}
       <div className="absolute inset-0 bg-black/75 z-10" />

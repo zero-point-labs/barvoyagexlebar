@@ -21,6 +21,7 @@ const Header = () => {
     { name: 'Home', href: '#hero', icon: Users },
     { name: 'Services', href: '#services', icon: Wine },
     { name: 'Menu', href: '#menu', icon: Calendar },
+    { name: 'Packages', href: '#events', icon: Calendar },
   ]
 
   return (
